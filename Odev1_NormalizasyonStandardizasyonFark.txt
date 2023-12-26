@@ -1,0 +1,20 @@
+			
+				NORMALİZASYON İLE STANDARDİZASYON ARASINDAKI FARKLAR NELERDIR?
+
+Standardizasyon ve normalizasyon, verileri daha tutarlı ve karşılaştırılabilir hale getirmek için kullanılan iki tekniktir. Her iki teknik de verilerin ölçeğini ve dağılımını değiştirmeyi amaçlar.
+
+#NORMALİZASYON# 
+- Görüntüdeki piksel değerlerini belirli bir aralığa sıkıştırmayı amaçlar. Genellikle 0 ve 1 arasına sığdırır.
+- Verilerin dağılımını etkilemez.Farklı ölçeklerde olan verileri aynı ölçeğe getirir.
+- Görüntülerin piksel değerlerini doğrudan etkiler.
+- Formülü şu şekildedir:  X_norm: =(X−Xmin)/(Xmax−Xmin)
+​- X_norm: Normalize edilmiş değer , X: Orijinal piksel değeri , Xmin: Minimum piksel değeri , Xmax: Maksimum piksel değeri
+
+#STANDARDİZASYON# 
+- Verilerin ortalamasını 0'a ve standart sapmasını 1'e dönüştürür.
+- Verilerin normal dağılıma uymasını sağlar.
+- Farklı ölçeklerde olan verileri karşılaştırılabilir hale getirir.
+- Formülü şu şekildedir: X_std =(X−μ)/σ
+- X_std: Standardize edilmiş değer , X: Orijinal piksel değer , μ: ortalama , σ: standart sapma
+​
+ 
